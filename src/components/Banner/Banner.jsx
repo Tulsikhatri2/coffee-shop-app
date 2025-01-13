@@ -42,23 +42,27 @@ const Banner = () => {
               <div className="grid grid-cols-2 gap-6 ">
                 <div className="space-y-5">
                   <div className="flex items-center gap-3">
-                    <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100" />
+                    <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-200" />
                     <span>Premium Coffee</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <IoFastFood className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-orange-100" />
+                    <IoFastFood className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-orange-200" />
                     <span>Hot Coffee</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100" />
+                    <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-200" />
                     <span>Cold Coffee</span>
                   </div>
                 </div>
                 <div className="space-y-3 border-l-4 border-primary/50 pl-6">
-                    <h1 className="text-2xl font-semibold font-cursive">Tea Lover</h1>
-                    <p className="text-gray-500 text-sm ">
-                        Much like writing the code, brewing the perfect cup of tea requires patience, precision, and a dash of passion to create a comforting blend of flavours.
-                    </p>
+                  <h1 className="text-2xl font-semibold font-cursive">
+                    Tea Lover
+                  </h1>
+                  <p className="text-gray-500 text-sm ">
+                    Much like writing the code, brewing the perfect cup of tea
+                    requires patience, precision, and a dash of passion to
+                    create a comforting blend of flavours.
+                  </p>
                 </div>
               </div>
             </div>
