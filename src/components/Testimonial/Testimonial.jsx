@@ -48,7 +48,7 @@ const Testimonial = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    cssEase: "lenear",
+    cssEase: "linear",
     pauseOnHover: true,
     pauseOnFocus: true,
     responsive: [
@@ -81,13 +81,13 @@ const Testimonial = () => {
     <div className="py-14 mb-10">
       <div className="container">
         {/* Header Section */}
-        <div className="text-center mb-20">
+        <div data-aos="fade-up" className="text-center mb-20">
           <h1 className="text-4xl font-bold font-cursive text-gray-800">
             Testimonials
           </h1>
         </div>
         {/* Testimonials card section */}
-        <div>
+        <div data-aos="zoom-in">
           <Slider {...settings}>
             {testimonialData.map((item, index) => (
               <div className="my-6" key={index}>
